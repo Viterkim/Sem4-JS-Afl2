@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1=jokes[i]
+    each joke in jokes
+        li= joke
+    br
+    a(href="/") Go Back

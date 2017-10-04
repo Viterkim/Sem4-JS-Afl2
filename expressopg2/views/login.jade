@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h3 Login
+    form(name="input", action="/login", method="post")
+          input(type="text", name="username", placeholder="UserName")
+          br
+          br
+          input(type="submit", value="Login")

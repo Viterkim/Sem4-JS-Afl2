@@ -1,0 +1,19 @@
+{
+  "name": "calcModuleDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.5.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}

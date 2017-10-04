@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h1 Add A New Joke
+    form(name="input", action="/storejoke", method="post")
+        input(type="text", name="joke", placeholder="Add Joke")
+        br
+        br
+        input(type="submit", value="Submit")
+        br
+        br
+    a(href="/") Go Back
+
+    h4=optionalMessage
